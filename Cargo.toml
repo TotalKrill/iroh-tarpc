@@ -1,0 +1,14 @@
+[package]
+name = "iroh-tarpc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tarpc = { version = "0.35", features = ["full"] }
+iroh = "0.32"
+tokio = "1.0"
+anyhow = "1.0"
+futures = "0.3"
+futures-lite = "2.6.0"
+async-stream = "0.3.6"
+pin-project = "1.1"
